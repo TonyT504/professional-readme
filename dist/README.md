@@ -1,4 +1,4 @@
-# tonyt
+# My Professional Readme
 
 
   # Table of Contents
@@ -18,7 +18,7 @@
   [![MIT](https://img.shields.io/badge/license-MIT-blue)](https://opensource.org/licenses/MIT)
 
 
-  Copyright 2022 tony trna
+  Copyright 2022 Tony Tran
 
     Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
     
@@ -29,33 +29,33 @@
   ## Description 
 
 
-     test
+     Enter project description
 
   ## Installation 
 
 
-     test
+     Enter installation instructions
 
   ## Usage 
 
 
-     test
+     Enter usage information
   
   ## Contribution 
 
 
-     test
+     Enter your contribution guidelines
   
   ## Test 
 
 
-     test
+     Enter your testing instructions
 
   ## Questions 
 
       Here's how you can contact me:
 
-      GitHub username:Tonyt504 
-      Link to repository: tonyt504 
-      Email: tonyt
+      GitHub username:tonyt504 
+      Link to repository: github.com/tonyt504 
+      Email: tonytran504@gmail.com
   
