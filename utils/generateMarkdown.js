@@ -152,7 +152,7 @@ function generateMarkdown(data) {
 
   -[Contribution](#Contribution)
 
-  -[Test Instructions](#Test-Instructions)
+  -[Test Instructions](#Test_Instructions)
 
   -[Questions?](#Questions)
 
@@ -169,7 +169,7 @@ function generateMarkdown(data) {
   
   ## Contribution ${renderContribution(data.contribution)}
   
-  ## Test-Instructions ${renderTest(data.test)}
+  ## Test_Instructions ${renderTest(data.test)}
 
   ## Questions ${renderQuestions(data.username, data.repo, data.email)}
   
