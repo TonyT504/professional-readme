@@ -169,7 +169,7 @@ function generateMarkdown(data) {
   
   ## Contribution ${renderContribution(data.contribution)}
   
-  ## Test Instructions ${renderTest(data.test)}
+  ## Test-Instructions ${renderTest(data.test)}
 
   ## Questions ${renderQuestions(data.username, data.repo, data.email)}
   
