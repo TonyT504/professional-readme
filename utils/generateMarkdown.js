@@ -152,7 +152,7 @@ function generateMarkdown(data) {
 
   -[Contribution](#Contribution)
 
-  -[Test Instructions](#Test_Instructions)
+  -[Test Instructions](#Test)
 
   -[Questions?](#Questions)
 
@@ -169,30 +169,11 @@ function generateMarkdown(data) {
   
   ## Contribution ${renderContribution(data.contribution)}
   
-  ## Test_Instructions ${renderTest(data.test)}
+  ## Test ${renderTest(data.test)}
 
   ## Questions ${renderQuestions(data.username, data.repo, data.email)}
   
 `;
 }
-
-// ${renderTableOfContents(tableofcontents)}
-
-
-
-// ${renderQuestions(data.questions)}
-//Description 
-
-//Table of Contents
-
-//installation
-
-//Usage
-
-//License
-
-//contribution guidelines
-
-//test instructions
 
 module.exports = generateMarkdown;
