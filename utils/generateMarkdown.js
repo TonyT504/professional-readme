@@ -15,7 +15,7 @@
 
 function renderDescription (description){
   if(description) {
-    return `DESCRIPTION
+    return `
 
 
      ${description}`;
@@ -23,7 +23,7 @@ function renderDescription (description){
 }
 function renderInstallation (installation){
   if(installation) {
-    return `INSTALLATION INSTRUCTIONS
+    return `
 
 
      ${installation}`;
@@ -31,7 +31,7 @@ function renderInstallation (installation){
 }
 function renderUsage (usage){
   if(usage) {
-    return `USAGE INFORMATION
+    return `
 
 
      ${usage}`;
@@ -39,7 +39,7 @@ function renderUsage (usage){
 }
 function renderContribution (contribution){
   if(contribution) {
-    return `CONTRIBUTION
+    return `
 
 
      ${contribution}`;
@@ -47,7 +47,7 @@ function renderContribution (contribution){
 }
 function renderTest (test){
   if(test) {
-    return `TESTS
+    return `
 
 
      ${test}`;
@@ -55,7 +55,7 @@ function renderTest (test){
 }
 function renderQuestions (username, repo, email){
   if(username, repo, email) {
-    return `QUESTIONS?
+    return `
 
       Here's how you can contact me:
 
@@ -141,22 +141,37 @@ function renderLicenseSection(license, author) {
 function generateMarkdown(data) {
   return `# ${data.title}
 
+
+  # Table of Contents
+
+  -[Description](#Description)
+
+  -[Installation Instructions](#Installation)
+
+  -[Usage](#Usage)
+
+  -[Contribution](#Contribution)
+
+  -[Test Instructions](#Test)
+
+  -[Questions?](#Questions)
+
   ${renderLicenseLink(data.license)}
 
 
   ${renderLicenseSection(data.license, data.author)}
 
-  ${renderDescription(data.description)}
+  ## Description ${renderDescription(data.description)}
 
-  ${renderInstallation(data.installation)}
+  ## Installation ${renderInstallation(data.installation)}
 
-  ${renderUsage(data.usage)}
+  ## Usage ${renderUsage(data.usage)}
   
-  ${renderContribution(data.contribution)}
+  ## Contribution ${renderContribution(data.contribution)}
   
-  ${renderTest(data.test)}
+  ## Test ${renderTest(data.test)}
 
-  ${renderQuestions(data.username, data.repo, data.email)}
+  ## Questions ${renderQuestions(data.username, data.repo, data.email)}
   
 `;
 }
